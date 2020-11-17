@@ -35,10 +35,10 @@ void loop() {
   }
 }
 ```
-Talk about how the fade works, here....
+The led fades because it is getting stronger (max 250) and then getting weaker (least 0). Going 0 to 250 makes it appear like it is fading.
 
 ### Evidence
-
+{Code}https://create.arduino.cc/editor/lmartin27/34820046-7d25-45f2-8caa-2fdb87085645
 ### Images
 
 ### Reflection
