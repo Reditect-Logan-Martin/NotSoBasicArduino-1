@@ -1,5 +1,5 @@
 # NotSoBasicArduino
- The follwing files are my second foray into Arduino
+ - Logan Martin
  
  
 ## Table of Contents
