@@ -39,7 +39,9 @@ The led fades because it is getting stronger (max 250) and then getting weaker (
 {Code}https://create.arduino.cc/editor/lmartin27/34820046-7d25-45f2-8caa-2fdb87085645
 ### Images
 <img src="/Led Images/IMG_20201117_132923.jpg/" alt="Fading LED" width="300" height="300">
+
 ### Reflection
+
 I was confused on how to code it at first,but most of the time I was struggling with just trying to put a wire where it needs to be.
 
 ## Hello_LCD
