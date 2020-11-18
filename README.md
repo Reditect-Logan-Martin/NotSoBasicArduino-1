@@ -12,9 +12,7 @@
 ## LED_Fade
 
 ### Description & Code
-Description goes here
-
-Here's how you make code look like code:
+An LED that slowly faded in and then out using the code below:
 
 ```C++
 void loop() {
@@ -42,6 +40,8 @@ The led fades because it is getting stronger (max 250) and then getting weaker (
 ### Images
 
 ### Reflection
+
+I didn't do much on coding, most of the time I was struggling with just trying to out a wire where it needs to be.
 
 ## Hello_LCD
 
