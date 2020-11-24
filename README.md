@@ -48,20 +48,43 @@ I was confused on how to code it at first,but most of the time I was struggling 
 ## Finite_LED
 
 ### Description & Code
-Description goes here
+An LED that blinks five times and then stops blinking.
 
 Here's how you make code look like code:
 
 ```C++
-Code goes here
+int maxnum = 5;
+int ledPin = 13;
+int counter = 0;
+
+void setup() {       // nothing much to say here apart from 9600 should never change
+  
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (counter < maxnum){      // if the counter is above max (5) then it won't work
+  Serial.println(counter);
+  digitalWrite(ledPin, HIGH);   // this turns the LED on
+  delay(1000);                      
+  digitalWrite(ledPin, LOW);    // this turns the LED off
+  delay(1000);              
+  counter++;  // adds one to the counter
+  }
+}
 ```
-Talk about how the code works, here....
+The LED blicks and then turns off 5 times and then it stops blinking.
 
 ### Evidence
-link goes here
-
+[Link to code] https://create.arduino.cc/editor/lmartin27/ca661103-2a2d-40d0-a366-24c3dfcb7d96/preview
 ### Images
 <img src="/Led Images/Screenshot 2020-11-24 at 10.35.24 AM.png" alt="Finite LED" width="350" height="300">
+
+### Reflection
+Making this code is confusing to me, but snatching code makes it really easy.
+just remember: Bibity bopity, your code is now my property.
+   - but also try to change it up a bit
 
 ## Hello_LCD
 
